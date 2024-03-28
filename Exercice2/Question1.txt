@@ -1,0 +1,6 @@
+Pour implémenter le type abstrait pile, nous allons ici utiliser les listes chainées.
+Contrairement à un tableau dynamique, les listes chaînées n'ont pas besoin de se redimensionner lorsque la capacité maximale est atteinte,
+car elles n'allouent de l'espace que pour les nouveaux éléments ajoutés. 
+
+De plus, les opérations d'ajout et de suppression au sommet de la pile se font toujours de la même manière,
+indépendamment de la taille de la liste, assurant des performances constantes.
