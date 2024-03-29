@@ -24,6 +24,7 @@ void empiler(Pile* pile, int valeur);
 int sommet(Pile* pile);
 int depiler(Pile* pile);
 
+// Question  1
 
 int main() {
     // Création d'une pile vide
@@ -86,3 +87,39 @@ int depiler(Pile* pile) {
     return -1; // Valeur par défaut pour indiquer une pile vide
 }
 
+/*Question 2 
+
+// Fonction pour inverser une liste à l'aide d'une pile
+void inverserListe(int* liste, int taille) {
+    // Création d'une pile vide
+    Pile* pile = (Pile*)malloc(sizeof(Pile));
+    pile->sommet = NULL;
+
+    // Empile les éléments de la liste dans la pile
+    for (int i = 0; i < taille; i++) {
+        empiler(pile, liste[i]);
+    }
+
+    // Affiche la liste renversée
+    printf("Liste renversée : ");
+    while (!estVide(pile)) {
+        printf("%d ", depiler(pile));
+    }
+    printf("\n");
+
+    // Libère la mémoire allouée pour la pile
+    free(pile);
+}
+
+int main() {
+    // Liste d'entiers
+    int liste[] = {1, 2, 3, 4, 5};
+    int taille = sizeof(liste) / sizeof(int);
+
+    // Inverser et afficher la liste
+    inverserListe(liste, taille);
+
+    return 0;
+}
+
+*/
