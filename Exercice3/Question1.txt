@@ -1,0 +1,8 @@
+Pour représenter au mieux une liste d'horaires de trains, nous pouvons utiliser une structure de données composée de plusieurs champs : 
+- Ville de départ
+- Ville d'arrivée
+- Heure de départ
+- Heure d'arrivée
+- Distance entre les deux villes
+
+Cela permet de stocker toutes les informations nécessaires pour chaque horaire de train dans une seule entité, facilitant ainsi la manipulation et la gestion des données.
